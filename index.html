@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+div{
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+}
+span#a1{
+    display: block;
+    width: 100px;
+     height: 100px;
+     background-color: rgba(255, 0, 76, 0.377);
+}
+span.a2{
+    display: block;
+    width: 100px;
+     height: 100px;
+     background-color: rgba(0, 255, 0, 0.377);
+}
+a[href="https://google.com"]{
+    display: block;
+    width: 100px;
+     height: 100px;
+     background-color: rgba(0, 132, 255, 0.377);
+     text-decoration: none;
+}
+input[name="a3"]{
+    display: block;
+    width: 100px;
+     height: 100px;
+     background-color: rgba(102, 255, 0, 0.377);
+     text-decoration: none;
+     text-decoration: none;
+}
+*{
+    border: 2px solid gray;
+}
+div,span#a1,span.a2,a,a[href="https://google.com"],input[name="a3"]{
+    display: inline-block;
+}
+#a4::before{
+    content: url(d5ce707e1df1465b5ec4a2b08f89f71a_w200.gif);
+    
+}
+    </style>
+</head>
+<body>
+    <div>css element selector</div>
+    <span id="a1">css element selector</span>
+    <span class="a2">css element selector</span>
+    <a href="https://google.com">css element selector</a>
+    css element selector<input name="a3"/>
+    <h1 id="a4">css element selector</h1>
+
+</body>
+</body>
+</html>
